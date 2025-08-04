@@ -1,0 +1,63 @@
+
+[
+  {
+    "id": "receita-1",
+    "tipo": "receita",
+    "data": "2024-05-10T00:00:00Z",
+    "descricao": "Doação Empresa XYZ",
+    "fonte": "Doação Privada",
+    "valor": 5000.00,
+    "ano": "2024",
+    "mes": "5"
+  },
+  {
+    "id": "despesa-1",
+    "tipo": "despesa",
+    "data": "2024-05-12T00:00:00Z",
+    "descricao": "Material Esportivo",
+    "categoria": "Material de Consumo",
+    "valor": 1200.00,
+    "ano": "2024",
+    "mes": "5"
+  },
+  {
+    "id": "receita-2",
+    "tipo": "receita",
+    "data": "2024-05-05T00:00:00Z",
+    "descricao": "Contribuição de Associados",
+    "fonte": "Mensalidades",
+    "valor": 3500.00,
+    "ano": "2024",
+    "mes": "5"
+  },
+  {
+    "id": "despesa-2",
+    "tipo": "despesa",
+    "data": "2024-05-07T00:00:00Z",
+    "descricao": "Contas de Utilidades",
+    "categoria": "Despesas Operacionais",
+    "valor": 950.00,
+    "ano": "2024",
+    "mes": "5"
+  },
+  {
+    "id": "receita-3",
+    "tipo": "receita",
+    "data": "2024-04-20T00:00:00Z",
+    "descricao": "Evento Beneficente",
+    "fonte": "Eventos",
+    "valor": 7200.00,
+    "ano": "2024",
+    "mes": "4"
+  },
+  {
+    "id": "despesa-3",
+    "tipo": "despesa",
+    "data": "2024-04-25T00:00:00Z",
+    "descricao": "Salários e Encargos",
+    "categoria": "Recursos Humanos",
+    "valor": 8500.00,
+    "ano": "2024",
+    "mes": "4"
+  }
+]

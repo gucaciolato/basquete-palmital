@@ -1,0 +1,35 @@
+[
+  {
+    "id": "mestre-cachimbo-capoeira",
+    "titulo": "Professor André Machado - O mestre Cachimbó",
+    "conteudo": "Com muita alegria congratulamos o Professor André Machado, mestre em capoeira, por mais uma conquista 🏆✨. Isso é resultado de esforço e dedicação ao qual podemos acompanhar de perto. Felizes por termos um profissional qualificado aqui conosco.\nNossos sinceros parabéns e que sua trajetória seja mais promissora! 🙏🥳",
+    "dataPublicacao": "2025-08-04T12:00:00Z",
+    "destaque": true,
+    "imagem": "/images/avisos/CAPA-ANDRE-MACHADO.jpg",
+    "arquivo": {
+      "nome": "Artigo - Capoeirista será reconhecido como Mestre",
+      "tipo": "link",
+      "url": "https://www.assiscity.com/capoeirista-de-assis-sera-reconhecido-oficialmente-como-mestre-de-capoeira-em-evento-regional/"
+    }
+  },
+  {
+    "id": "feijoada-ampla",
+    "titulo": "FEIJOADA DA AMPLA",
+    "conteudo": "Prestação de contas da feijoada da Ampla.\n\nPeríodo: 23 de maio ao dia 13 de junho de 2025",
+    "dataPublicacao": "2025-05-23T10:00:00Z",
+    "destaque": false,
+    "imagem": "/images/avisos/prestaçãofeijoada.jpeg",
+    "periodoInscricao": "23 de maio ao dia 13 de junho de 2025",
+    "imagensAdicionais": [
+      "/images/avisos/patrociniofeijoada.jpeg"
+    ]
+  },
+  {
+    "id": "vaga-monitor",
+    "titulo": "VAGA PARA MONITOR",
+    "conteudo": "Venha fazer parte deste time! Nos envie seu currículo",
+    "dataPublicacao": "2025-05-21T10:00:00Z",
+    "destaque": false,
+    "imagem": "/images/avisos/vagamonitor.jpeg"
+  }
+]

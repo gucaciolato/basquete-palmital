@@ -1,0 +1,17 @@
+
+[
+  {
+    "id": "doc-1",
+    "titulo": "D.R.E. 2024",
+    "tipo": "livro",
+    "ano": "2024",
+    "url": "/docs/livros-contabeis/D. R. E.24.pdf"
+  },
+  {
+    "id": "doc-2",
+    "titulo": "Balanço 2024",
+    "tipo": "livro",
+    "ano": "2024",
+    "url": "/docs/livros-contabeis/Balanço24.pdf"
+  }
+]

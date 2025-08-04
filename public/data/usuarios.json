@@ -1,0 +1,19 @@
+
+[
+  {
+    "id": "admin",
+    "username": "admin",
+    "passwordHash": "5f4dcc3b5aa765d61d8327deb882cf99",
+    "nome": "Administrador",
+    "role": "admin",
+    "ativo": true
+  },
+  {
+    "id": "gerente",
+    "username": "gerente",
+    "passwordHash": "5f4dcc3b5aa765d61d8327deb882cf99",
+    "nome": "Gerente de Conteúdo",
+    "role": "editor",
+    "ativo": true
+  }
+]

@@ -1,0 +1,52 @@
+
+{
+  "mandato": "2023-2025",
+  "diretoriaExecutiva": [
+    {
+      "cargo": "Presidente",
+      "nome": "Claudinir Ladeira de Oliveira"
+    },
+    {
+      "cargo": "Vice-Presidente",
+      "nome": "Rubens Bernini"
+    },
+    {
+      "cargo": "1° Secretário",
+      "nome": "Fernanda Maria de Lima"
+    },
+    {
+      "cargo": "2° Secretário",
+      "nome": "Juliana de Fátima Oliveira Santos"
+    },
+    {
+      "cargo": "1° Tesoureiro",
+      "nome": "Maiara Tathiane de Souza Carvalho"
+    },
+    {
+      "cargo": "2° Tesoureiro",
+      "nome": "Bruna Natalia Rodrigues da Silva"
+    }
+  ],
+  "conselhoFiscal": [
+    {
+      "nome": "Vera Lucia Bezerra"
+    },
+    {
+      "nome": "Fátima Aparecida Nogueira dos Reis"
+    },
+    {
+      "nome": "José Joaquim Alves Pereira"
+    }
+  ],
+  "suplentesConselhoFiscal": [
+    {
+      "nome": "Airton Costa"
+    },
+    {
+      "nome": "Neusa Aparecida Santos Silva"
+    },
+    {
+      "nome": "Danieli Cristina da Silva Gonçalves"
+    }
+  ]
+}

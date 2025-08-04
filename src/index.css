@@ -1,0 +1,192 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 250 33% 98%;
+    --foreground: 250 40% 16%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 250 40% 16%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 250 40% 16%;
+
+    --primary: 250 70% 60%;
+    --primary-foreground: 250 40% 98%;
+
+    --secondary: 250 20% 95%;
+    --secondary-foreground: 250 40% 20%;
+
+    --muted: 250 20% 96%;
+    --muted-foreground: 250 16% 45%;
+
+    --accent: 250 30% 92%;
+    --accent-foreground: 250 40% 16%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 250 40% 98%;
+
+    --border: 250 31% 91%;
+    --input: 250 31% 91%;
+    --ring: 250 84% 60%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 250 70% 50%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 0 0% 100%;
+    --sidebar-primary-foreground: 250 70% 50%;
+    --sidebar-accent: 250 80% 40%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 250 80% 45%;
+    --sidebar-ring: 250 91% 60%;
+  }
+
+  .dark {
+    --background: 250 24% 8%;
+    --foreground: 250 40% 98%;
+
+    --card: 250 24% 10%;
+    --card-foreground: 250 40% 98%;
+
+    --popover: 250 24% 10%;
+    --popover-foreground: 250 40% 98%;
+
+    --primary: 250 60% 60%;
+    --primary-foreground: 250 5% 98%;
+
+    --secondary: 250 16% 18%;
+    --secondary-foreground: 250 40% 98%;
+
+    --muted: 250 16% 18%;
+    --muted-foreground: 250 20% 65%;
+
+    --accent: 250 16% 20%;
+    --accent-foreground: 250 40% 98%;
+
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 250 40% 98%;
+
+    --border: 250 16% 20%;
+    --input: 250 16% 20%;
+    --ring: 250 60% 60%;
+    
+    --sidebar-background: 250 26% 16%;
+    --sidebar-foreground: 250 5% 96%;
+    --sidebar-primary: 250 60% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 250 16% 24%;
+    --sidebar-accent-foreground: 250 5% 96%;
+    --sidebar-border: 250 16% 24%;
+    --sidebar-ring: 250 91.2% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+  
+  h1 {
+    @apply text-3xl font-bold;
+  }
+  
+  h2 {
+    @apply text-2xl font-semibold;
+  }
+  
+  h3 {
+    @apply text-xl font-medium;
+  }
+}
+
+@layer components {
+  .prestaconta-page-title {
+    @apply text-2xl font-bold text-ampla-800 mb-6 font-heading;
+  }
+  
+  .prestaconta-card {
+    @apply bg-white/80 backdrop-blur-sm rounded-xl shadow-glass border border-white/20 p-6 hover:shadow-glass-hover transition-all duration-300;
+  }
+  
+  .prestaconta-button {
+    @apply bg-ampla-600 text-white px-4 py-2 rounded-lg hover:bg-ampla-700 transition-all duration-200 shadow-sm hover:shadow-md;
+  }
+  
+  .prestaconta-button-secondary {
+    @apply bg-gray-200/80 backdrop-blur-sm text-gray-800 px-4 py-2 rounded-lg hover:bg-gray-300/80 transition-all duration-200 shadow-sm hover:shadow-md;
+  }
+  
+  .glass-card {
+    @apply bg-white/70 backdrop-blur-md rounded-xl shadow-glass border border-white/20 p-6 hover:shadow-glass-hover transition-all duration-300;
+  }
+  
+  .gradient-border {
+    @apply relative rounded-xl p-[1px] bg-gradient-to-br from-ampla-400 to-ampla-700;
+  }
+  
+  .gradient-border > div {
+    @apply bg-white/80 backdrop-blur-sm rounded-[calc(0.75rem-1px)] p-5 h-full;
+  }
+}
+
+.animate-delay-100 {
+  animation-delay: 100ms;
+}
+
+.animate-delay-200 {
+  animation-delay: 200ms;
+}
+
+.animate-delay-300 {
+  animation-delay: 300ms;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
