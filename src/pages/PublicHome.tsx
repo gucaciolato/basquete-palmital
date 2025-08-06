@@ -104,9 +104,9 @@ const PublicHome: React.FC = () => {
       <section className="bg-gradient-to-r from-ampla-800 to-ampla-900 text-white py-10 -mt-8 mb-8">
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl font-bold font-heading mb-3">PrestaConta</h1>
+            <h1 className="text-4xl font-bold font-heading mb-3">APBE</h1>
             <p className="text-ampla-100 mb-6">Transparência e Prestação de Contas</p>
-            <h2 className="text-2xl font-bold font-heading mb-4">Transparência e gestão de informações da AMPLA</h2>
+            <h2 className="text-2xl font-bold font-heading mb-4">Transparência e gestão de informações da APBE</h2>
             <p className="text-lg text-ampla-100">
               Acesse avisos, documentos e informações importantes sobre a associação.
               Nossa plataforma garante transparência e facilidade na prestação de contas.
