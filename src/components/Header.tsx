@@ -16,12 +16,12 @@ const Header: React.FC = () => {
         <div className="flex flex-col items-center py-4">
           <Link to="/">
             <img 
-              src="/lovable-uploads/a3162c5d-78c2-4f98-8b6a-51f804c2f552.png" 
-              alt="AMPLA Logo" 
+              src="/public/images/logo-basq.jpg" 
+              alt="BASQ Logo" 
               className="h-20 w-auto mb-4" 
             />
           </Link>
-          <h1 className="text-2xl font-bold text-ampla-800 mb-4">PrestaConta</h1>
+          <h1 className="text-2xl font-bold text-ampla-800 mb-4">APBE</h1>
           
           <nav className="w-full">
             <ul className="flex flex-wrap justify-center gap-x-2 gap-y-2">
