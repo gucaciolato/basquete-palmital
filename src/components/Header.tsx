@@ -16,7 +16,7 @@ const Header: React.FC = () => {
         <div className="flex flex-col items-center py-4">
           <Link to="/">
             <img 
-              src="/public/images/logo-basq.jpg" 
+              src="/images/logo-basq.jpg" 
               alt="BASQ Logo" 
               className="h-20 w-auto mb-4" 
             />
