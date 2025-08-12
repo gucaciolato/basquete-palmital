@@ -64,18 +64,18 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				ampla: {
-					'50': '#f0f1fe',
-					'100': '#e2e4fd',
-					'200': '#c9cefb',
-					'300': '#aab1f9',
-					'400': '#8a8cf4',
-					'500': '#756dee',
-					'600': '#6551e0',
-					'700': '#5642c9',
-					'800': '#4638a3',
-					'900': '#3b3381',
-					'950': '#221c4e',
-				},
+			  '50': '#fff7ed',   // laranja muito claro
+			  '100': '#ffedd5',  // laranja claro
+			  '200': '#fed7aa',  // laranja suave
+			  '300': '#fdba74',  // laranja médio claro
+			  '400': '#fb923c',  // laranja médio
+			  '500': '#f97316',  // laranja principal
+			  '600': '#ea580c',  // laranja escuro
+			  '700': '#c2410c',  // laranja mais escuro
+			  '800': '#9a3412',  // laranja bem escuro
+			  '900': '#7c2d12',  // laranja muito escuro
+			  '950': '#431407',  // laranja quase preto
+			},
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
