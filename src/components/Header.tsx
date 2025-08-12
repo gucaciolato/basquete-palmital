@@ -18,7 +18,7 @@ const Header: React.FC = () => {
             <img 
               src="/images/logo-basq.jpg" 
               alt="BASQ Logo" 
-              className="h-25 w-auto mb-4" 
+              className="h-24 w-auto mb-4" 
             />
           </Link>
           <h1 className="text-2xl font-bold text-ampla-800 mb-4">APBE</h1>
