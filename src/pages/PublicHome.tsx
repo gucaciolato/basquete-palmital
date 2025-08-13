@@ -54,7 +54,7 @@ const PublicHome: React.FC = () => {
         const [avisosRes, docsRes, fotosRes, atividadesRes] = await Promise.all([
           fetch('/data/avisos.json'),
           fetch('/data/documentos.json'),
-          fetch('/data/galeria.json'),
+          fetch(`/data/galeria.json?v=${Date.now()}`),
           fetch('/data/atividades.json')
         ]);
 
@@ -77,6 +77,16 @@ const PublicHome: React.FC = () => {
         const sortedFotos = fotosData
           .sort((a: Foto, b: Foto) => new Date(b.data).getTime() - new Date(a.data).getTime())
           .slice(0, 4);
+
+        const sortedFotos = fotosData
+  .sort((a: Foto, b: Foto) => new Date(b.data).getTime() - new Date(a.data).getTime())
+  .slice(0, 4);
+
+// Adicione estas linhas para debug:
+console.log('Todas as fotos carregadas:', fotosData);
+console.log('Fotos ordenadas para home:', sortedFotos);
+console.log('Últimas 4 fotos:', sortedFotos.map(f => ({ titulo: f.titulo, data: f.data })));
+
 
         const hoje = new Date();
         const sortedAtividades = atividadesData
@@ -302,7 +312,11 @@ const PublicHome: React.FC = () => {
                           src={foto.url}
                           alt={foto.titulo}
                           className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
-                          onError={(e) => { (e.target as HTMLImageElement).src = '/placeholder.svg' }}
+                          onError={(e) => { 
+                          console.error('Erro ao carregar imagem:', foto.url);
+                          (e.target as HTMLImageElement).src = '/placeholder.svg' 
+                        }}
+
                         />
                       </div>
                     ))}
