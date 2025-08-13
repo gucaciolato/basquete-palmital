@@ -100,7 +100,7 @@ console.log('Últimas 4 fotos:', sortedFotos.map(f => ({ titulo: f.titulo, data:
         
         setAvisos(sortedAvisos);
         setDocumentos(sortedDocs);
-        setFotos(sortedFotos);
+        setFotos(fotosData);
         setAtividades(sortedAtividades);
         setLoading(false);
       } catch (error) {
@@ -111,6 +111,11 @@ console.log('Últimas 4 fotos:', sortedFotos.map(f => ({ titulo: f.titulo, data:
 
     fetchAllData();
   }, []);
+
+  const fotosParaHome = fotos
+  .sort((a, b) => new Date(b.data).getTime() - new Date(a.data).getTime())
+  .slice(0, 4);
+
 
   return (
     <PublicLayout>
@@ -287,7 +292,7 @@ console.log('Últimas 4 fotos:', sortedFotos.map(f => ({ titulo: f.titulo, data:
                 <div className="text-center p-4">
                   <h3 className="font-semibold text-ampla-800">Conheça nossa equipe</h3>
                   <p className="text-gray-600 text-sm mt-2">
-                    Veja informações sobre a diretoria executiva e conselho fiscal da AMPLA.
+                    Veja informações sobre a diretoria executiva e conselho fiscal da APBE.
                   </p>
                   <Button asChild className="mt-4 bg-ampla-600 hover:bg-ampla-700 text-white">
                     <Link to="/diretoria">Ver Diretoria</Link>
@@ -310,7 +315,7 @@ console.log('Últimas 4 fotos:', sortedFotos.map(f => ({ titulo: f.titulo, data:
               {fotos.length > 0 ? (
                 <div className="glass-card p-0 overflow-hidden">
                   <div className="grid grid-cols-2 gap-2 p-2">
-                    {fotos.slice(0, 4).map((foto) => (
+                    {fotosParaHome.map((foto) => (
                       <div key={foto.id} className="aspect-square overflow-hidden rounded-md">
                         <img
                           src={foto.url}
