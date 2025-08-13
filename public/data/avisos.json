@@ -1,14 +1,14 @@
 [
-  /*{
-    "id": "mestre-cachimbo-capoeira",
-    "titulo": "Professor André Machado - O mestre Cachimbó",
-    "conteudo": "Com muita alegria congratulamos o Professor André Machado, mestre em capoeira, por mais uma conquista 🏆✨. Isso é resultado de esforço e dedicação ao qual podemos acompanhar de perto. Felizes por termos um profissional qualificado aqui conosco.\nNossos sinceros parabéns e que sua trajetória seja mais promissora! 🙏🥳",
+  {
+    "id": "",
+    "titulo": "",
+    "conteudo": "",
     "dataPublicacao": "2025-08-04T12:00:00Z",
-    "destaque": true,
-    "imagem": "/images/avisos/CAPA-ANDRE-MACHADO.jpg",
+    "destaque": false,
+    "imagem": "",
     "arquivo": {
-      "nome": "Artigo - Capoeirista será reconhecido como Mestre",
+      "nome": "",
       "tipo": "link",
-      "url": "https://www.assiscity.com/capoeirista-de-assis-sera-reconhecido-oficialmente-como-mestre-de-capoeira-em-evento-regional/"
-    }*/
+      "url": ""
+    }
 ]
