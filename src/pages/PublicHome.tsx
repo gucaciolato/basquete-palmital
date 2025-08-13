@@ -73,10 +73,6 @@ const PublicHome: React.FC = () => {
         const sortedDocs = docsData
           .sort((a: Documento, b: Documento) => b.ano.localeCompare(a.ano))
           .slice(0, 3);
-          
-        const sortedFotos = fotosData
-          .sort((a: Foto, b: Foto) => new Date(b.data).getTime() - new Date(a.data).getTime())
-          .slice(0, 4);
 
         const sortedFotos = fotosData
   .sort((a: Foto, b: Foto) => new Date(b.data).getTime() - new Date(a.data).getTime())
