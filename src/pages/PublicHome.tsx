@@ -26,9 +26,13 @@ interface Documento {
 interface Foto {
   id: string;
   titulo: string;
+  descricao: string;
   data: string;
   url: string;
+  ano: string;
+  mes: string;
 }
+
 
 interface Atividade {
   id: string;
@@ -77,6 +81,10 @@ const PublicHome: React.FC = () => {
         const sortedFotos = fotosData
   .sort((a: Foto, b: Foto) => new Date(b.data).getTime() - new Date(a.data).getTime())
   .slice(0, 4);
+
+        console.log('Fotos carregadas:', fotosData.length);
+console.log('Fotos ordenadas:', sortedFotos);
+
 
 // Adicione estas linhas para debug:
 console.log('Todas as fotos carregadas:', fotosData);
